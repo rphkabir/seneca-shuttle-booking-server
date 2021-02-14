@@ -1,2 +1,2 @@
 # seneca-shuttle-booking
-An application to book Seneca shuttle bus. 
+An application to book Seneca Shuttle Bus. 
