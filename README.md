@@ -1,2 +1,3 @@
 # seneca-shuttle-booking
-An application to book Seneca Shuttle Bus. 
+An application to book Seneca shuttle bus. 
+Hyun Jun
