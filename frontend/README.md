@@ -1,3 +1,0 @@
-# Seneca Shuttle Booking Frontend
-
-
