@@ -6,6 +6,7 @@ var seats = new Schema(
   {
     _id:{
       type:String,
+      route: String,
       required:true
     },
     available:{
