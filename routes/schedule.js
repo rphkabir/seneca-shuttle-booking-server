@@ -8,10 +8,10 @@ const router = express.Router();
 
 // schedule Routes
 
-router.post('/schedule', verifyAuth, createSchedule);
-router.get('/schedule', verifyAuth, getAllSchedule);
-router.patch('/schedule/:schedulesId', verifyAuth, cancelschedules);
-router.get('/schedule/origin', verifyAuth, filterschedulesByOrigin);
-router.get('/schedule/destination', verifyAuth, filterschedulesByDestination);
+router.post('/schedule',  createSchedule);
+router.get('/schedule', getAllSchedule);
+router.patch('/schedule/:schedulesId',  cancelschedules);
+router.get('/schedule/origin',  filterschedulesByOrigin);
+router.get('/schedule/destination',  filterschedulesByDestination);
 
 export default router;
