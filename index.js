@@ -4,10 +4,14 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 
 import loginRoutes from './routes/login.js'
-
+import scheduleRoute from './routes/schedule.js'
+import bookingRoute from './routes/booking.js'
 const app = express();
 
 app.use('/login', loginRoutes);
+
+app.use('/schedule', scheduleRoute);
+app.use('/booking', bookingRoute);
 
 app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
